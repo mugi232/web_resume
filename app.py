@@ -7,6 +7,9 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
+@app.route('/elements_theme')
+def elements_theme():
+    return render_template("elements.html")
 
 # Run the web app
 

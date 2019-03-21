@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="{{url_for('static',filename = 'img/favicon.png')}}">
+    <title>Thenmugilan Gandhy</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/linericon/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/owl-carousel/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/lightbox/simpleLightbox.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/nice-select/css/nice-select.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/animate-css/animate.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'vendors/flaticon/flaticon.css')}}">
+    <!-- main css -->
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/responsive.css')}}">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="main_menu" id="mainNav">
+          <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container box_1620">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand logo_h" href="{{url_for('index')}}"><strong>Thenmugilan Gandhy</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+          <ul class="nav navbar-nav menu_nav ml-auto">
+            <li class="nav-item active"><a class="nav-link " href="{{url_for('index')}}">Home</a></li>
+            <li class="nav-item"><a class="nav-link " href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{url_for('static',filename = 'document/Thenmugilan Gandhy Resume_2019.pdf')}}">Resume</a>
+            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact_id">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+          </nav>
+        </div>
+    </header>
+    <!--================Header Menu Area =================-->
+
+    {% block content %}
+
+    {% endblock %}
+
+    <!--================Footer Area =================-->
+    <footer id= "footer_id" class="page-footer" style = "background: black; padding: 20px;">
+      <div class="container">
+        <div style = "text-align: center;">
+        <div class="row" style = "display: inline-block;">
+
+              <aside class="f_widget social_widget">
+                <div class="f_title">
+                  <h3>Thenmugilan Gandhy</h3>
+                </div>
+                <p>Follow me</p>
+                <ul class="list">
+                  <li><a href="https://www.facebook.com/Thenmugilan"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/thenmugilan-gandhy/"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://github.com/mugi232"><i class="fab fa-github"></i></a></li>
+                </ul>
+              </aside>
+
+        </div>
+        </div>
+
+
+
+
+        <div style = "text-align: center;">
+        <div class="row" style = "display: inline-block;">
+          <aside class="f_widget ab_widget">
+          <p class="text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Thanks to <a href="https://colorlib.com" target="_blank">Colorlib</a> for the design idea.
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+        </aside>
+        </div>
+        </div>
+
+
+
+
+      </div>
+    </footer>
+    <!--================End Footer Area =================-->
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+    <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+    <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+    <script src="vendors/isotope/isotope-min.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!--gmaps Js-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+    <script src="js/gmaps.min.js"></script>
+    <script src="js/theme.js"></script>
+
+  </body>
+</html>
