@@ -296,7 +296,7 @@ button:focus {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_left_img {
-      padding-top: 195px; }
+      padding-top: 100px; }
     .home_banner_area .banner_inner .col-lg-6 {
       vertical-align: middle;
       align-self: center; }
@@ -1318,7 +1318,7 @@ button:focus {
 .button-group-area {
   margin-top: 15px; }
   .button-group-area:nth-child(odd) {
-    margin-top: 40px; }
+    margin-top: 10px; }
   .button-group-area:first-child {
     margin-top: 0px; }
   .button-group-area .theme_btn {
@@ -2716,6 +2716,7 @@ h6 {
 .wel_item {
   border: 1px solid #eeeeee;
   padding: 30px 25px;
+  paddin
   border-radius: 5px; }
   .wel_item i {
     font-size: 24px;
@@ -2807,7 +2808,7 @@ h6 {
     font-size: 21px;
     font-family: "Heebo", sans-serif;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     text-transform: uppercase; }
   .feature_item p {
     margin-bottom: 0px; }
@@ -3084,5 +3085,16 @@ h6 {
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
+
+
+/*---------------------------------------------------- */
+/* ============================================================================================
+Skills Area css */
+
+.skills_area {
+  background: #f9f9ff; }
+
+/* End Skills Area css
+============================================================================================ */
 
 /*# sourceMappingURL=style.css.map */

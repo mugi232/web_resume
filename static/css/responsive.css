@@ -143,7 +143,7 @@
     }
 	/* End Blog page Area css
 	============================================================================================ */
-	
+
 	/* Contact Page Area css
 	============================================================================================ */
 	.contact_info{
@@ -171,7 +171,7 @@
 	}
 	/* End End Footer Area css
 	============================================================================================ */
-	
+
 	.home_banner_area .banner_inner .home_left_img {
 		padding-top: 0px;
 	}
@@ -191,6 +191,11 @@
 	.portfolio_details_inner .portfolio_right_text {
 		padding-left: 0px;
 	}
+
+  /* About me css */
+  .wel_item {
+		margin-bottom: 30 px;
+  }
 }
 @media (max-width:767px){
 	.home_banner_area {
@@ -236,7 +241,7 @@
 	}
 	/* End End Footer Area css
 	============================================================================================ */
-	
+
 	.welcome_text .row{
 		margin-bottom: -30px;
 	}
@@ -245,13 +250,15 @@
 	}
 	.welcome_text {
 		margin-top: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
 	}
 	.portfolio_details_inner .portfolio_right_text {
 		margin-top: 50px;
 	}
 }
 @media (max-width:600px){
-	
+
 }
 @media (max-width:575px){
 	.top_menu {
@@ -300,7 +307,7 @@
 	}
 	/* End Elements Area css
 	============================================================================================ */
-	
+
 	/* Blog Page Area css
 	============================================================================================ */
 	.blog_details h2 {
@@ -352,7 +359,7 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	
+
 	/* Home Banner Area css
 	============================================================================================ */
     .home_banner_area .banner_inner .banner_content {
@@ -375,8 +382,8 @@
 	.comments-area .thumb {
 		margin-right: 10px;
 	}
-	
+
 	/* End Blog Page Area css
 	============================================================================================ */
-	
+
 }
