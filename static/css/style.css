@@ -44,6 +44,9 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html{
+  scroll-behavior: smooth;
+}
 .list {
   list-style: none;
   margin: 0px;
@@ -134,6 +137,8 @@ button:focus {
 /*----------------------------------------------------*/
 .header_area {
   position: absolute;
+  /*position: sticky;
+  position: -webkit-sticky;*/
   width: 100%;
   top: 0;
   left: 0;
@@ -141,6 +146,7 @@ button:focus {
   transition: background 0.4s, all 0.3s linear; }
   .header_area .navbar {
     background: transparent;
+    /* background-color: white; */
     padding: 0px;
     border: 0px;
     border-radius: 0px; }
