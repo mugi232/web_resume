@@ -109,7 +109,7 @@ button:focus {
 ============================================================================================ */
 .main_title {
   text-align: center;
-  margin-bottom: 75px; }
+  margin-bottom: 50px; }
   .main_title h2 {
     font-family: "Heebo", sans-serif;
     font-size: 36px;
@@ -1204,7 +1204,12 @@ button:focus {
     font-size: 20px;
     line-height: 24px;
     color: #8490ff;
-    font-weight: 600; }
+    font-weight: 600;
+
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
@@ -1560,8 +1565,8 @@ h6 {
 .genric-btn {
   display: inline-block;
   outline: none;
-  line-height: 40px;
-  padding: 0 30px;
+  line-height: 35px;
+  padding: 0 20px;
   font-size: .8em;
   text-align: center;
   text-decoration: none;
@@ -1589,7 +1594,7 @@ h6 {
   line-height: 25px; }
 
 .genric-btn.radius {
-  border-radius: 3px; }
+  border-radius: 5px; }
 
 .genric-btn.circle {
   border-radius: 20px; }
@@ -1665,8 +1670,13 @@ h6 {
 
 .genric-btn.info {
   color: #fff;
-  background: #38a4ff;
-  border: 1px solid transparent; }
+  /* background: #38a4ff; */
+  border: 1px solid transparent;
+
+  background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
 
 .genric-btn.info:hover {
   color: #38a4ff;
@@ -3027,7 +3037,9 @@ h6 {
   color: #777777;
   margin-bottom: 30px; }
   .ab_widget p a {
-    color: #8490ff; }
+    /* color: #8490ff; */
+    color: #777777;
+  }
   .ab_widget p + p {
     margin-bottom: 0px; }
 

@@ -149,6 +149,7 @@
 	.contact_info{
 		margin-bottom: 50px;
 	}
+
 	/* End Contact page Area css
 	============================================================================================ */
 	.home_banner_area .donation_inner{
@@ -297,6 +298,10 @@
 	.main_title h2 {
 		font-size: 25px;
 	}
+
+  .feature_area .main_title h2{
+    font-size: 36px;
+  }
 	/* Elements Area css
 	============================================================================================ */
 	.sample-text-area {
