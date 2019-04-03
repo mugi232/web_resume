@@ -31,6 +31,8 @@
 		left: auto;
 		right: -20px;
 	}
+
+
 }
 
 @media (max-width:991px){
@@ -402,4 +404,5 @@
   .home_banner_area .banner_inner .banner_content h2 {
 		font-size: 26px;
 	}
+
 }
