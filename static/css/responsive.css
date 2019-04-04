@@ -191,8 +191,17 @@
 		max-width: 360px;
 		margin: 0px auto 30px;
 	}
-	.portfolio_details_inner .portfolio_right_text {
+  .portfolio_details_inner img {
+    margin-top: -20px;
+  }
+
+  .portfolio_details_inner .portfolio_right_text {
 		padding-left: 0px;
+	}
+
+  .portfolio_details_inner .portfolio_center_text {
+		padding-left: 0px;
+    padding-right: 0px;
 	}
 
   /* About me css */

@@ -158,6 +158,8 @@ button:focus {
         color: #222222;
         padding: 0px;
         display: inline-block; }
+
+
         .header_area .navbar .nav .nav-item .nav-link:after {
           display: none; }
       .header_area .navbar .nav .nav-item.submenu {
@@ -380,7 +382,7 @@ button:focus {
 .banner_area {
   position: relative;
   z-index: 1;
-  min-height: 400px; }
+  min-height: 350px; }
   .banner_area .banner_inner {
     position: relative;
     overflow: hidden;
@@ -389,19 +391,31 @@ button:focus {
     background: #f9f9ff;
     z-index: 1; }
     .banner_area .banner_inner .banner_content {
-      margin-top: 70px; }
+      margin-top: 30px; }
       .banner_area .banner_inner .banner_content h2 {
         color: #222222;
         font-size: 36px;
         font-family: "Heebo", sans-serif;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
+        /* padding-top: 10px; */
         text-transform: uppercase;
         font-weight: bold; }
+
+      .banner_area .banner_inner .banner_content a {
+        font-size: 20px;
+        color: #8490ff;
+        font-family: "Roboto", sans-serif;
+        position: relative;
+      }
+
+      .banner_area .banner_inner .banner_content a:hover{
+        text-decoration: underline;
+      }
       .banner_area .banner_inner .banner_content .page_link a {
-        font-size: 14px;
+        font-size: 18px;
         color: #777777;
         font-family: "Roboto", sans-serif;
-        margin-right: 32px;
+        /* margin-right: 32px; */
         position: relative; }
         .banner_area .banner_inner .banner_content .page_link a:before {
           content: "\e87a";
@@ -415,6 +429,14 @@ button:focus {
           margin-right: 0px; }
           .banner_area .banner_inner .banner_content .page_link a:last-child:before {
             display: none; }
+
+        .banner_area .banner_inner .banner_content .project_detail p {
+          font-size: 18px;
+          color: #777777;
+          font-family: "Roboto", sans-serif;
+          /* margin-right: 32px; */
+          /* line-height: 10px; */
+          position: relative; }
 
 /* End Home Banner Area css
 ============================================================================================ */
@@ -2927,38 +2949,87 @@ h6 {
 ============================================================================================ */
 /* Portfolio Details Area css
 ============================================================================================ */
+.portfolio_details_inner img{
+  margin-top: -10px;
+  margin-bottom: 0px;
+}
 .portfolio_details_inner .row {
-  margin-bottom: 65px; }
+  margin-bottom: 0px;
+}
 .portfolio_details_inner p {
   margin-bottom: 30px;
-  font-size: 14px; }
+  font-size: 16px; }
+
   .portfolio_details_inner p:last-child {
     margin-bottom: 0px; }
+
+  .portfolio_details_inner b {
+      font-weight: bold;
+      color: #8490ff; }
+
+.portfolio_details_inner .portfolio_center_text{
+  padding-bottom: 65px ;
+  padding-top: 45px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.portfolio_details_inner .portfolio_center_text h4 {
+  color: #222222;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 22px; }
+
+.portfolio_details_inner .portfolio_center_text p {
+  margin-bottom: 25px;
+  /* font-size: 14px;  */
+}
+
 .portfolio_details_inner .portfolio_right_text {
   padding-left: 98px; }
   .portfolio_details_inner .portfolio_right_text h4 {
     color: #222222;
-    font-size: 21px;
+    font-size: 22px;
     text-transform: uppercase;
-    margin-bottom: 18px; }
+    margin-bottom: 22px; }
   .portfolio_details_inner .portfolio_right_text p {
     margin-bottom: 25px;
-    font-size: 14px; }
-  .portfolio_details_inner .portfolio_right_text .list li {
+    /* font-size: 14px;  */
+  }
+  .portfolio_details_inner .list li {
     margin-bottom: 7px;
     color: #777777;
     font-weight: normal;
-    font-size: 14px; }
-    .portfolio_details_inner .portfolio_right_text .list li span {
-      font-size: 14px;
+    font-size: 16px; }
+    .portfolio_details_inner .list li span {
+      font-size: 16px;
       color: #222222;
       font-weight: 500;
-      width: 97px;
+      /* width: 97px; */
       display: inline-block; }
-    .portfolio_details_inner .portfolio_right_text .list li:last-child {
-      margin-bottom: 0px; }
-    .portfolio_details_inner .portfolio_right_text .list li i {
+    .portfolio_details_inner .list li:last-child {
+      margin-bottom: 0px;
+    }
+    .portfolio_details_inner .list li i {
       color: #f1cd09; }
+
+    .portfolio_details_inner .list-2 li {
+      list-style-type: circle;
+      margin-bottom: 7px;
+      color: #777777;
+      font-weight: normal;
+      font-size: 16px;
+    }
+
+    .portfolio_details_inner .list-2 li span {
+      list-style-type: circle;
+      font-size: 16px;
+      color: #222222;
+      font-weight: 500;
+      /* width: 97px; */
+      display: inline-block; }
+
 
 /* End Portfolio Details Area css
 ============================================================================================ */

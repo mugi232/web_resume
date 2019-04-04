@@ -8,11 +8,10 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
-						<h2>Portfolio Details</h2>
-						<div class="page_link">
-							<a href="index.html">Home</a>
-							<a href="services.html">Portfolio</a>
-							<a href="services.html">Portfolio Details</a>
+						<h2>Smilesmith</h2>
+						<div class="project_detail">
+	             <p>A B2B online dental marketplace for Dental Clinics to buy clinical supplies from multiple suppliers.</p>
+               <a href="https://www.smilesmith.dental/sg/" target="_blank">www.smilesmith.dental</a>
 						</div>
 
 					</div>
@@ -25,28 +24,109 @@
         <section class="portfolio_details_area p_120">
         	<div class="container">
         		<div class="portfolio_details_inner">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="left_img">
-								<img class="img-fluid" src="{{url_for('static',filename = 'img/gallery/portfolio_details.jpg')}}" alt="">
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="portfolio_right_text">
-								<h4>Lavendar ambient colorlib</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-								<ul class="list">
-									<li><span>Rating</span>: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-									<li><span>Client</span>:  colorlib</li>
-									<li><span>Website</span>:  colorlib.com</li>
-									<li><span>Completed</span>:  17 Aug 2018</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-       				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
-       				<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-        		</div>
+              <img class="img-fluid" src="{{url_for('static',filename = 'img/projects/project1/projects-1-title.jpg')}}" alt="">
+              <div class="portfolio_center_text">
+                <h4>My Role</h4>
+                <p>As Product Manager for the Smilesmith, I worked with our multidisciplinary team to take the dental marketplace
+                  from conception to launch. I conducted research, user interviews, managed prioritised product backlog, handled dental
+                  clinics and supplier onboarding, and worked closely with the CEO, product designer and a tech team.</p>
+                <p>As the technical co-founder for Smilesmith, I had additional responsibilities including product ownership,
+                  writing technical documentation, monitoring and putting together metrics, logistics management and aiding in fundraising.</p>
+              </div>
+
+      					<div class="row">
+      						<div class="col-md-6">
+      							<div class="left_img">
+      								<img class="img-fluid" src="{{url_for('static',filename = 'img/projects/project1/fullsite.jpg')}}" alt="">
+      							</div>
+      						</div>
+      						<div class="col-md-6">
+      							<div class="portfolio_right_text">
+      								<h4>Product</h4>
+      								<p>At <b>Smilesmith</b> dental clinics can browse and purchase dental supplies from multiple suppliers under a single order.
+                        The products are categorised according to dental specialization. The suppliers can select products from the dental
+                        product database and set price and quantity for the products under their online dashboard. The dental product database
+                        is curated and set up by Smilesmith team. Each supplier can set their delivery charges, minimum order amount and delivery
+                        time. Dental clinics and suppliers can authorise additional personnel to access the account as a sub-user.</p>
+                      <h4>Inception</h4>
+                      <p>We started our product design from a user pain point analysis. Based on our user interviews and market analysis,
+                        we identified the main problems faced by our two main platform users, Dental Clinics and Product Suppliers.</p>
+                      <ul class="list">
+                        <li><span>Dental Clinic</span>
+                          <ul>
+                            <li>Need to make multiple phone calls to various suppliers to get information on a product's availability, pricing,
+                              deals and delivery time.</li>
+                            <li>The time taken from “Call to Vendor” to “Product Delivery” is more than four days.</li>
+                            <li>Unable to buy products in bulk since the private dental clinics have limited inventory space.</li>
+                            <li>Unaware of new products’ availability in the market.</li>
+                          </ul>
+                        </li>
+                        <li><span>Product Supplier</span>
+                          <ul>
+                            <li>Carries hundreds of products from various brands and having difficulty in introducing those products to the dental clinics
+                              efficiently and consistently.</li>
+                            <li>Typically, a salesperson gets less than 2 to 5 mins with the dentist to promote their products.</li>
+                            <li>Long payment cycle (60 to 70 days).</li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                      <p>We went on deciding the high-level function requirements to address the pain points and made iteration based on the feedback
+                        from our initial userbase. The marketplace went live in May 2017 with over 1500 products and 70 plus brands by partnering with
+                        12 Singapore Dental Suppliers. Currently, the platform is selling more than 6000 products to Dental clinics from
+                        Singapore and India.</p>
+
+                      <h4>Early Issues</h4>
+                      <p>Slow registered users growth</p>
+                      <ul class="list">
+                        <li><span>Problem Understanding</span>
+                          <ul>
+                            <li>Quantitative analysis: We implemented hotjar to track users’ activity on our marketplace. Based on
+                            analytics, users were spending 10 to 15 mins to browse products and when they reach the registration
+                            page, they dropped out of the funnel. </li>
+                            <li>Qualitative Analysis: From dentists’ interviews we found out that our 3-page registration page is
+                            long, and we were requesting for information which was not readily available with the users at the time of
+                            registration (Such as clinic registration No. and Dentist ID No.).</li>
+                          </ul>
+                        </li>
+                        <li><span>Hypothesis Testing and Implementation</span>
+                          <ul>
+                          <li>We converted our existing 3-page registration page into a Single page. After much discussion,
+                            we removed some of the fields and made. We ran an A/B Test by randomly displaying one of the registration
+                            pages to the visitors and tracked users’ activity.</li>
+                            <li>More than 30% of users from the second group (Single Page Registration)
+                              registered an account with us.</li>
+                          </ul>
+                        </li>
+                      </ul>
+      							</div>
+      						</div>
+      					</div>
+
+                <div class="portfolio_center_text">
+                  <h4>Interesting Metrics</h4>
+                  <ul class="list-2">
+                    <li>More than 50% of our users browse the marketplace after office hours (Salesperson are usually unable to
+                      get in touch with the clinics during these hours.)</li>
+                    <li>More than 90% of the orders were paid on delivery.
+                      (Usually, clinics will send out cheques to suppliers at the end of the month.)</li>
+                  </ul>
+                  <h4>Learning Points</h4>
+                  <ul class="list-2">
+                    <li>Learned the importance of understanding and defining the scope of the product.</li>
+                    <li>Learned how important it is to step out of the office and to have regular
+                      interaction with users regularly. Yes! I was taking almost too many dental clinic appointments.</li>
+                    <li>Learned to prioritize the features required to solve the fundamental users’ problem for
+                       a successful Minimum Viable Product. Feature creep is very real!</li>
+                    <li>Strengthened my Technical, UX and Business understanding, giving me the ability to
+                       work with CEO, product designer and tech team who helped to push the product vision forward.</li>
+                    <li>Learned how to manage a remote tech team best and encourage collaborative discussion.</li>
+                    <li>Learned to keep a tab on the technical debt such as QA and non-feature work, like bugs and documentation. </li>
+                  </ul>
+                </div>
+
+
+            </div>
         	</div>
         </section>
         <!--================End Portfolio Details Area =================-->
