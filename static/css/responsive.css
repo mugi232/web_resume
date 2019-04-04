@@ -413,7 +413,7 @@
   .home_banner_area .banner_inner .banner_content h2 {
 		font-size: 26px;
 	}
-  .projects_item .projects_text h4 {
-    margin-top: 5px;}
+  .projects_item .projects_text p{
+    padding-bottom: -15px;}
 
 }
