@@ -3014,6 +3014,14 @@ h6 {
     .portfolio_details_inner .list li i {
       color: #f1cd09; }
 
+      .portfolio_details_inner .list li a {
+        color: #777777;
+        font-weight: normal;
+        font-size: 15px;}
+
+        .portfolio_details_inner .list li a:hover {
+          text-decoration: underline;}
+
     .portfolio_details_inner .list-2 li {
       list-style-type: circle;
       margin-bottom: 7px;
